@@ -1,0 +1,11 @@
+name = "distance"
+type = "javascript"
+zone_id = "96aa0bac36cf123a0c3b95ea94b98bfb"
+account_id = "c8526a45c47706d6c69f8d997004bd7a"
+route = "vcokltfre.dev/distance*"
+workers_dev = true
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
