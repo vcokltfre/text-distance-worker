@@ -72,7 +72,7 @@ export async function handleRequest(request: Request): Promise<Response> {
   if (rf === "html") {
     const metaTags = buildMetaTags([
       ["title", `String Similarity (${(algo === "jw") ? "JaroWinkler" : algo === "nilsimsa" ? "Nilsimsa" : "Levenshtein"})`],
-      ["description", `Input 1: ${s1}\nInput 2: ${s2}\n\nDistance: ${Math.round(result * 1000) / 10}%`],
+      ["description", `Input 1: ${s1}\nInput 2: ${s2}\n\Similarity: ${Math.round(result * 1000) / 10}%`],
     ])
     return createHTMLResponse(metaTags)
   }
