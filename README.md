@@ -10,7 +10,7 @@ Params:
 |--------|-------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------|
 | algo   | "jw" or "nilsimsa" or "levenshtein" | Yes      | The algorithm to use.                                                                                              |
 | s1     | string                              | Yes      | The first input string.                                                                                            |
-| s2     | string                              | Yes      | The second input string.                                                                                            |
+| s2     | string                              | Yes      | The second input string.                                                                                           |
 | format | "json" or "html"                    | No       | The return format. "json" returns an object as described below, "html" returns Discord embed compatible meta tags. |
 
 JSON response format:
